@@ -23,11 +23,10 @@ This is the backend API for the Web Application. It is built using **Node.js and
 ### Steps to Run Locally
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd backend
+git clone https://github.com/philly2mill/fullstack-web-app.git
+cd fullstack-web-app/backend
 npm install
 npm start
-```
 
 ### Server runs at:
 

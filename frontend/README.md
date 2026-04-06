@@ -33,11 +33,10 @@ This is the frontend of the Web Application project. It is built using **React.j
 ### Steps to Run Locally
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd frontend
+git clone https://github.com/philly2mill/fullstack-web-app.git
+cd fullstack-web-app/frontend
 npm install
 npm start
-```
 
 ### App runs at:
 
