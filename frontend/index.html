@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fullstack Web App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Fullstack Web App</h1>
+
+  <section id="add-section">
+    <h2>Add or Update Item</h2>
+    <p>Fill in the fields below and click "Add Item". To edit, click "Edit" next to an item, change the values, and click "Update Item".</p>
+    <input type="text" id="item-name" placeholder="Item Name">
+    <input type="number" id="item-value" placeholder="Item Value">
+    <button id="add-btn">Add Item</button>
+  </section>
+
+  <section id="list-section">
+    <h2>Items</h2>
+    <ul id="item-list">
+      <!-- Items will appear here dynamically -->
+    </ul>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
